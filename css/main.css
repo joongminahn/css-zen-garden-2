@@ -16,14 +16,14 @@ a:hover {
 } 
 .wrapper {
   margin:0 auto;
-  width: 90%;
+  width: 80%;
   min-width: 900px;    
 }
 
 /* HEADER */
 header {
   width: 100%;  
-  height: 500px;
+  height: 400px;
   background-image: url("/images/bg_header.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -38,18 +38,18 @@ header .text-group-title {
  }
 
  header .text-group-title .title {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 700;
   }
  header .text-group-title .sub-title {
-   font-size: 2.5em;
+   font-size: 1.8em;
    text-align: center;
    letter-spacing: 1.2px;
   }
 
   header .text-group-design {
-    width: 268px;
-    height: 128px;
+    width: 160px;
+    height: 80px;
     background-color:#fffcf6;
     opacity: 80%;
     border-radius: 8px;
@@ -62,22 +62,22 @@ header .text-group-title {
     width: 100%;
     height: 50%;    
     text-align: center;
-    line-height: 64px;
-    font-size: 1.6em;
+    line-height: 50px;
+    font-size: 1.2em;
   }
   
   header .text-group-design .view {
     width: 100%;
     height: 50%;
     text-align: center;
-    line-height: 48px;
-    font-size: 1.6em;   
+    line-height: 30px;
+    font-size: 1.2em;   
   }
    
    /* MAIN  */   
    
    h1 {
-    font-size: 3.4em;
+    font-size: 3em;
     color: #cccccc;
     text-align: center;
     margin-top: 60px;
@@ -85,8 +85,8 @@ header .text-group-title {
 
    p{
     color: #bbbbbb;
-    padding: 40px 200px;
-    font-size: 2em;
+    padding: 40px 160px;
+    font-size: 1.4em;
     line-height: 40px;
     font-weight: 100;
    }
@@ -100,9 +100,9 @@ header .text-group-title {
    .main01 .text-group01{
      /* background-color:aquamarine; */
      color: #999999;
-     font-size: 2.8em;
+     font-size: 2em;
      padding-top: 60px;
-     padding: 60px 300px 0px 300px; 
+     padding: 60px 240px 0px 240px; 
      font-style:oblique;
      font-weight:100;
      line-height: 60px;     
@@ -154,19 +154,20 @@ header .text-group-title {
       .main01 .text-group-requirements {
         margin-top: 80px;
        }
+       /* MAIN 02 */
     .main02 {
       width: 100%;
-      height: 500px;
+      height: 440px;
       background-color: #173954;
       /* overflow: hidden; */
-      position: relative;      
+      position: relative;            
     }
     .main02 .container-items {
       width: 80%;
       height: 100%;      
       margin: 0 auto;
       display: flex;
-      
+      transform: scale(0.8);
     }
     .main02 .container-items .container-left{
       width: 65%;      
@@ -179,8 +180,7 @@ header .text-group-title {
        font-size: 3em;
        font-weight: 700;
        display: block;
-       width: 500px;
-       margin-top: 40px;
+       width: 500px;       
        padding-bottom: 10px;
        border-bottom: 4px solid #96c7d5;       
       }
@@ -256,8 +256,7 @@ header .text-group-title {
         }
         .main02 .container-items .container-right > .right-header{
           display: block;
-          width: 300px;
-          padding-top: 40px;
+          width: 300px;          
           padding-bottom: 10px;
           color:wheat;       
           border-bottom: 4px solid wheat;          
@@ -274,16 +273,17 @@ header .text-group-title {
             color:wheat;
            }
 footer{  
-  height: 200px;
+  height: 140px;
   background-color: #1A4B4F;  
   position: relative;
 }
 footer .container-footer{
-  height: 160px;  
+  height: 110px;  
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: scale(0.8);
  }
  footer .container-footer a {   
    color: #ffffff;
@@ -297,7 +297,7 @@ footer .container-footer{
    }
 footer .copyright {  
   color: #999999;
-  font-size: 1.8em;
+  font-size: 1.4em;
   position: absolute;
   bottom: 20px;
   text-align: center;  
