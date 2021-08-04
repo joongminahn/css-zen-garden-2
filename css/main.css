@@ -16,7 +16,8 @@ a:hover {
 } 
 .wrapper {
   margin:0 auto;
-  width: 70%;  
+  width: 70%;
+  min-width: 1230px;  
 }
 
 /* HEADER */
@@ -158,7 +159,7 @@ header .text-group-title {
       height: 500px;
       background-color: #173954;
       /* overflow: hidden; */
-      position: relative;
+      position: relative;      
     }
     .main02 .container-items {
       width: 80%;
@@ -170,6 +171,7 @@ header .text-group-title {
     .main02 .container-items .container-left{
       width: 65%;      
       position: relative;
+      padding-left: 6%;
 
      }
      .main02 .container-items .container-left .left-header{
@@ -244,8 +246,7 @@ header .text-group-title {
           color:#96C7D5;
          }
 
-        .main02 .container-items .container-right {
-          padding-left: 60px;
+        .main02 .container-items .container-right {          
           width: 35%;                   
           right: 0px;
           color: #96C7D5;
